@@ -40,8 +40,7 @@ const Item = () => {
     return <div>Error: {error.message}</div>;
   }
 
-  // Ensure data is an array before calling .map
-  // const itemsArray = Array.isArray(data) ? data : data.items || [];
+ 
 
   return (
     <>
